@@ -8,7 +8,6 @@ def BubbleSort(arr):
             if arr[j] < arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
                 swapped = True
-            print(arr)
 
         if not swapped:
             break

@@ -3,6 +3,8 @@ while True:
     arr = list(map(int, input(f"Input {n} numbers: ").split()))
     if len(arr) == n:
         break
+    else:
+        print(f'Error! Count of numbers must be {n}')
 
 
 def merge(left, right):

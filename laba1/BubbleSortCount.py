@@ -10,7 +10,6 @@ def BubbleSort(arr):
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
                 swapped = True
                 count += 1
-            print(arr)
 
         if not swapped:
             break
