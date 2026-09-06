@@ -1,5 +1,6 @@
-first_word = input('Input first word: ')
-second_word = input('Input second word: ')
+first_word = input()
+second_word = input()
+
 
 def check_anagram(w1, w2):
     if len(w1) != len(w2):
@@ -14,5 +15,6 @@ def check_anagram(w1, w2):
         if counts[ch] < 0:
             return 'NO'
     return 'YES'
+
 
 print(check_anagram(first_word, second_word))

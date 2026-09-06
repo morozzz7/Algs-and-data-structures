@@ -1,6 +1,6 @@
-n = int(input("Input count of array elements: "))
+n = int(input())
 while True:
-    arr = list(map(int, input(f"Input {n} numbers: ").split()))
+    arr = list(map(int, input().split()))
     if len(arr) == n:
         break
     else:
@@ -33,4 +33,4 @@ def MergeSort(arr):
     return merge(left, right)
 
 
-print(MergeSort(arr))
+print(*MergeSort(arr))

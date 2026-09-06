@@ -1,5 +1,5 @@
-distances = list(map(int, input('Input distances: ').split()))
-tariffs = list(map(int, input('Input tariffs: ').split()))
+distances = list(map(int, input().split()))
+tariffs = list(map(int, input().split()))
 
 
 def lowest_total(distances, tariffs):

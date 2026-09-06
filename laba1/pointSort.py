@@ -8,10 +8,10 @@ class Point:
 
 
 points = []
-points_count = int(input('Input number of points: '))
+points_count = int(input())
 
 for _ in range(points_count):
-    x, y = map(int, input("Input point's coordinate: ").split())
+    x, y = map(int, input().split())
     points.append(Point(x, y))
 
 points.sort(key=lambda p: p.distance())
