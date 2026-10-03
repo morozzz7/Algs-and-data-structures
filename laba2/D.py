@@ -1,9 +1,10 @@
 def f(x, a, b, c, d):
     return a * x**3 + b * x**2 + c * x + d
 
+
 def find_root(a, b, c, d):
-    left = -1000
-    right = 1000
+    left = -100000
+    right = 100000
 
     for _ in range(100):
         mid = (right + left) / 2
