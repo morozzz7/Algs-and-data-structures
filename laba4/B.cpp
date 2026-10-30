@@ -37,7 +37,6 @@ void HeapSort(vector<int>& arr) {
     for (int i = n - 1; i > 0; i--) {
         swap(arr[0], arr[i]);
         SiftDown(arr, 0, i);
-        SiftDown(arr, 0, i);
     }
 }
 
